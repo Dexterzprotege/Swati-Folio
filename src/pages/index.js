@@ -33,12 +33,12 @@ const Home = ({ className, location }) => {
   const { keywords } = siteConfig
   return (
     <Layout location={location}>
-      <SEO
+      <SEO style={{ color: '#FF9400' }}
         title={title}
         keywords={keywords}
       />
 
-      <Hero
+      <Hero style={{ color: '#FF9400' }}
         heroImg={siteConfig.siteCover}
         title={title}
       />
@@ -78,15 +78,19 @@ const Home = ({ className, location }) => {
           </Row>
           <Separator />
           <Timeline />
-          <Separator />
-          {siteConfig.githubUsername && <Repositories />}
         </Container>
       </Wrapper>
     </Layout>
   )
 }
 
+const SEOTitle = styled(SEO)`
+  color: #FF9400
+`
+
 export default styled(Home)`
+
+font-family: 'Roboto', sans-serif; 
   .page-content {
     max-width: 100%;
     margin-bottom: 40px;

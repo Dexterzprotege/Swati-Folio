@@ -86,6 +86,9 @@ const Header = ({ location, onChangeTheme, theme }) => {
     <HeaderWrapper>
       <HeaderNav>
         <HeaderLinkGroup>
+          <HeaderLink  to="/">
+            Swati Rai
+          </HeaderLink>
           {headerLinks.map((headerLink, i) => (
             <HeaderLink
               active={location.pathname === withPrefix(headerLink.url)}

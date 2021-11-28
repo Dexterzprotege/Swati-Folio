@@ -1,8 +1,8 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Hi! I\'m Swati Rai!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
+  authorName: 'Swati Rai',
   twitterUsername: '_franciscodf',
   githubUsername: 'santosfrancisco',
   authorAvatar: '/images/avatar.jpeg',
@@ -12,27 +12,27 @@ module.exports = {
     I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
   skills: [
     {
-      name: 'HTML',
+      name: 'UX Design',
       level: 70
     },
     {
-      name: 'CSS',
+      name: 'User Interview',
       level: 60
     },
     {
-      name: 'Javascript',
+      name: 'Heuristic Evaluation',
       level: 50
     },
     {
-      name: 'NodeJs',
+      name: 'Prototyping',
       level: 40
     },
     {
-      name: 'React',
+      name: 'Survey',
       level: 60
     },
     {
-      name: 'Git',
+      name: 'Wireframing',
       level: 70
     },
     /* more skills here */
@@ -40,42 +40,72 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Adori Labs, Inc.",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'apr',
+        year: '2021'
       },
       duration: null,
-      occupation: "Frontend developer",
+      occupation: "User Experience Designer",
       description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
   
     },  {
-      company: "Lendico",
+      company: "Cheqq",
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'aug',
+        year: '2020'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '6 mos',
+      occupation: "User Experience Designer",
+      description: "Cheqq is a SAAS product I worked here as a lead designer I did secondary research, wireframing, design, and prototyping of the whole App alone. I worked on this Mobile App from scratch."
   
     }, {
-      company: "Anapro",
+      company: "Meet Cue",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'jul',
+        year: '2020'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
+      duration: '2 mos',
+      occupation: "UX Researcher",
       description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
     }, {
-      company: "Anapro",
+      company: "Restart Digital Factory",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'jun',
+        year: '2020'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
+      duration: '3 mos',
+      occupation: "User Experience Designer",
+      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+  
+    }, {
+      company: "UpLiv Technologies",
+      begin: {
+        month: 'may',
+        year: '2020'
+      },
+      duration: '4 mos',
+      occupation: "User Experience Designer",
+      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+  
+    }, {
+      company: "Truweight",
+      begin: {
+        month: 'dec',
+        year: '2019'
+      },
+      duration: '5 mos',
+      occupation: "User Experience Designer",
+      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+  
+    }, {
+      company: "Oltify",
+      begin: {
+        month: 'nov',
+        year: '2019'
+      },
+      duration: '3 mos',
+      occupation: "User Experience Designer",
       description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
   
     },
@@ -91,6 +121,16 @@ module.exports = {
       description: "Responsive grid for ReactJS",
       url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
     },
+    {
+      image: "/images/awesome-grid.png",
+      description: "Responsive grid for ReactJS",
+      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+    },
+    {
+      image: "/images/awesome-grid.png",
+      description: "Responsive grid for ReactJS",
+      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+    }
     /* more portifolio items here */
   ],
   social: {
@@ -115,7 +155,7 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Portfolio',
       url: '/portifolio',
     }
   ]

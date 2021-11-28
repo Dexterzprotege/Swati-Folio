@@ -6,9 +6,9 @@ export default styled(({ className, title = 'Skills', skills = [] }) => (
   <div className={className}>
     <h1>{title}</h1>
     {skills.map(skill => (
-      <SkillBar key={skill.name} name={skill.name} level={skill.level} />
+      <li>{skill.name}</li>
     ))}
   </div>
 ))`
-  width: 100%;
+  // width: 100%;
 `

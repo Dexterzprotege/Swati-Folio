@@ -94,7 +94,7 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ```js
   module.exports = {
-    siteTitle: 'Hi! I\'m Francisco!',
+    siteTitle: 'Hi! I\'m Swati Rai!',
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
     authorName: 'Francisco Santos',
@@ -221,3 +221,4 @@ Update the configuration file with your data. The configuration file is in ```da
 ## It was useful?
 
 <a href="https://www.buymeacoffee.com/santosfrancisco" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" width="180px" ></a>
+# Swati-Folio

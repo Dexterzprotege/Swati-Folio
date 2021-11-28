@@ -32,17 +32,17 @@ const JobCard = styled.a`
 `
 
 const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
+  const title = "Portfolio"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
-      <SEO
+      <SEO style={{ color: '#FF9400' }}
         title={title}
         keywords={keywords}
       />
 
       <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpeg')}
+        heroImg={withPrefix('/images/portfoliocover.jpg')}
         title={title}
       />
 
