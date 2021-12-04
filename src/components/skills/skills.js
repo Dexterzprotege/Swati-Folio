@@ -6,7 +6,7 @@ export default styled(({ className, title = 'Skills', skills = [] }) => (
   <div className={className}>
     <h1>{title}</h1>
     {skills.map(skill => (
-      <li>{skill.name}</li>
+      <li key={skill.name}>{skill.name}</li>
     ))}
   </div>
 ))`

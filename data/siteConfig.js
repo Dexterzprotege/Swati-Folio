@@ -6,10 +6,7 @@ module.exports = {
   twitterUsername: '_franciscodf',
   githubUsername: 'santosfrancisco',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Hi, I'm Swati Rai, UX Researcher, and User Experience Designer. I started off as a multimedia graphical designer and then transistioned to UX sometime ago. I am really passionate about UX Research and always strive to create excellent user friendly designs that will change the world. I currently work as a UX Designer at Adori Labs, and I am loving every bit of it!`,
   skills: [
     {
       name: 'UX Design',
@@ -47,7 +44,7 @@ module.exports = {
       },
       duration: null,
       occupation: "User Experience Designer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      description: "Ad campaigns and Audio Ads were the major things, which made my problem-solving strong. Ad Campaign Manager (worked with co-founder, which was really fun as it was a complex thing). Secondary research studied about Ad Campaign and competitors (megaphone). Listed the features we need for the ad campaign (creating flight, creating campaigns, tracking the impression and etc). Made the design for the Ad Campaign"
   
     },  {
       company: "Cheqq",
@@ -112,39 +109,40 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/cheqq.png",
+      description: "Cheqq: A SaaS product",
+      url: "https://swatirai27.medium.com/cheqq-88eddf1ba41e"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/irctc.png",
+      description: "IRCTC: Re-design",
+      url: "https://swatirai27.medium.com/irctc-8f813589315a"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/helpout.png",
+      description: "HelpOut: A utility app",
+      url: "https://swatirai27.medium.com/helpout-992369630f7b"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/dribble.jpeg",
+      description: "100 Days DailyUI Challenge",
+      url: "https://dribbble.com/Swati_Rai"
     }
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://swatirai27.medium.com/",
+    linkedin: "https://www.linkedin.com/in/the-swati/",
+    github: "https://dribbble.com/Swati_Rai",
+    email: "theeswatirai@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
+  portfolioCover: '/images/portfoliocover.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
-  theme_color: '#25303B',
+  theme_color: '#020257',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',

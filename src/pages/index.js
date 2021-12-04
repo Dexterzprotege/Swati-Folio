@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaDribbble, FaMediumM} from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
@@ -13,6 +13,8 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
+// import { Dribbble } from '@styled-icons/entypo-social/Dribbble'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Layout = loadable(() => import('../components/layout'))
 
@@ -39,8 +41,9 @@ const Home = ({ className, location }) => {
       />
 
       <Hero style={{ color: '#FF9400' }}
-        heroImg={siteConfig.siteCover}
+        heroImg="portfolio"
         title={title}
+        val="index"
       />
 
       <Wrapper className={className} >
@@ -54,18 +57,19 @@ const Home = ({ className, location }) => {
               />
               <div className="social">
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
-                  <FaGithub className="social-icon" size="32" />
+                  <FaDribbble className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
                   <FaLinkedin className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
-                  <FaTwitter className="social-icon" size="32" />
+                  <FaMediumM className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                   <FaEnvelope className="social-icon" size="32" />
                 </a>}
               </div>
+              
             </Col>
           </Row>
           <Row>

@@ -5,7 +5,11 @@
   "version": "0.0.1",
   "author": "Francisco Santos <yoshi.df@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "@loadable/component": "5.12.0",
+    "@types/styled-components": "^5.1.1",
     "babel-plugin-styled-components": "1.10.6",
     "framer-motion": "1.11.0",
     "gatsby": "2.23.3",
@@ -26,7 +30,8 @@
     "react-icons": "3.10.0",
     "react-switch": "5.0.1",
     "simple-json-fetch": "1.0.1",
-    "styled-components": "5.1.1"
+    "styled-components": "5.1.1",
+    "styled-icons": "^10.45.0"
   },
   "keywords": [
     "gatsby"
